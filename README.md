@@ -5,7 +5,7 @@
 
 ### Description
 
-This is the backend repository for smartwristband project which is the paart of exceed17 camp
+This is the backend and frontend repository for smartwristband project which is the part of exceed17 camp
 
 ### Getting Started
 
@@ -117,9 +117,6 @@ This is the backend repository for smartwristband project which is the paart of 
 
 ### ROUTING IP
     158.108.182.16:500014  # PS. Port may changed due to traffic please contact me
-
-# Smart Wristband - frontend
-This is the frontend repository for Smart Wristband web application project which is the part of Exceed17 camp
 
 ## Webpage component
 
