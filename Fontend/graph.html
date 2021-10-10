@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img class="logo" src="image/logo.png">
+
+                </div>
+                <div class="collaspe navbar-collaspe" id="micon">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="feature.html">Features</a></li>
+                    <li><a href="graph.html">Graph of motion</a></li>
+                </ul>
+            </div>
+
+            </div>
+        </nav>
+        <div id="cal-graph" style="height: 300px; width: 100%; align-content: center;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script src="graph.js"></script>
+        <div id="total-cal"></div>
+    </header>
+
+</body>
+
+</html>
